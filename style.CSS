@@ -1,0 +1,684 @@
+.fullbody {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+.navbar {
+  background-color: rgb(236, 241, 242);
+  width: 100%;
+  height: 7vh;
+}
+.navbar .subnavbar {
+  margin-left: 20px;
+}
+.navbar .subnavbar a {
+  text-decoration: none;
+  color: rgb(82, 79, 79);
+  font-size: 13px;
+}
+.navbar .subnavbarlink {
+  margin-right: 20px;
+}
+.navbar .subnavbarlink a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 13px;
+}
+.subnavbar span {
+  color: skyblue;
+}
+.section2 {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+}
+.section2 img {
+  width: 150px;
+  margin-top: 10px;
+}
+.section2 div {
+  border-top: 1px solid rgb(207, 202, 202);
+  width: 95%;
+  margin: auto;
+  margin-top: 15px;
+}
+.Navbar1 {
+  margin-top: 8px;
+  width: 100%;
+}
+#navbarSupportedContent {
+  width: 100%;
+}
+#navbarSupportedContent ul {
+  margin-left: 20px;
+}
+#navbarSupportedContent ul li a {
+  color: rgb(119, 116, 116);
+  font-size: 15px;
+}
+#navbarSupportedContent .Iconsnavbar {
+  margin-right: 25px;
+  font-size: 13px;
+}
+#navbarSupportedContent .Iconsnavbar a {
+  margin: 0px 8px;
+  color: rgb(119, 116, 116);
+}
+.nav-item .dropdown-menu {
+  display: flex;
+  visibility: hidden;
+}
+.imagedrowndop img {
+  width: 300px;
+  height: 200px;
+  margin-left: 10vw;
+}
+.dropdown-menu .dropdown-menu1 .blankdiv {
+  border-top: 1px solid rgb(153, 150, 150);
+  width: 5vw;
+  margin-left: 1vw;
+}
+.dropdown-menu .imagedrowndop {
+  display: flex;
+}
+.nav-item .dropdown-menu .dropdown-menu3 {
+  display: flex;
+}
+.dropdown-menu1 img {
+  width: 300px;
+  height: 300px;
+}
+.nav-item:hover > .dropdown-menu {
+  display: block;
+  visibility: visible;
+  display: flex;
+  transition: ease 2s;
+}
+.section3image {
+  width: 100%;
+  position: relative;
+}
+.section3image img {
+  width: 100%;
+  height: 110vh;
+  padding: 10px;
+  object-fit: fill;
+  image-resolution: 100%;
+  image-rendering: optimizeQuality;
+  filter: brightness(1);
+}
+.section3image .section3font {
+  position: absolute;
+  top: 0;
+  margin-top: 40vh;
+  margin-left: 7vw;
+}
+.section3font h1 {
+  color: aqua;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.section3font a {
+  text-decoration: none;
+}
+.section3font p {
+  width: 20vw;
+  color: rgb(83, 82, 82);
+}
+.section3font button {
+  background-color: white;
+  width: 9vw;
+  height: 6vh;
+  border-style: none;
+  box-shadow: 7px 1px 10px 2px;
+  border-radius: 0px 10px 0px 10px;
+}
+.section4 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.section4 h1 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.section4 p {
+  align-items: center;
+  width: 50vw;
+  margin: auto;
+  font-weight: 100;
+}
+.section4mainflex {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10vh;
+}
+.sectionflex1 {
+  text-align: center;
+}
+.sectionflex1 img {
+  width: 200px;
+}
+.sectionflex1 p {
+  width: 25vw;
+  text-align: center;
+}
+.sectionflex11 {
+  margin-top: 30vh;
+}
+.sectionflex11 img {
+  width: 290px;
+  height: 250px;
+}
+.section5 {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  text-align: center;
+}
+.section5 h2 {
+  font-weight: 200;
+}
+.section5 p {
+  width: 45vw;
+  text-align: center;
+  margin: auto;
+  color: rgb(76, 75, 75);
+}
+.alllinks {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 5vh;
+}
+.alllinks button {
+  background-color: white;
+  width: 9vw;
+  height: 6vh;
+  border-style: none;
+  box-shadow: 7px 1px 10px 2px;
+  border-radius: 0px 8px 3px 6px rgb(228, 224, 224);
+}
+.section6 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 3vw;
+  margin-top: 10vh;
+  justify-content: center;
+}
+.section6 .section6cards {
+  width: 300px;
+  height: 450px;
+  border: 1px solid rgb(241, 241, 241);
+}
+.section6cards img {
+  width: 298px;
+  height: 300px;
+}
+.section6font h3 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5vh;
+  color: rgb(74, 72, 72);
+}
+.section6font a {
+  text-decoration: none;
+}
+.section6font p {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(74, 72, 72);
+}
+.section6font span {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(74, 72, 72);
+  text-decoration: line-through;
+}
+.section6font .section6links {
+  text-align: center;
+}
+.section6links i {
+  color: rgb(74, 72, 72);
+}
+.MATTRESS {
+  margin-top: 10vh;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.MATTRESS img {
+  width: 100%;
+  height: 70vh;
+  filter: brightness(0.1);
+}
+.mattressallpart {
+  display: flex;
+  position: absolute;
+  top: 0px;
+}
+.MATTRESS .Mattresssection7 {
+  margin: 13vh 7vw;
+}
+.MATTRESS .Mattresssection7font {
+  margin: 13vh 0px;
+}
+.Mattresssection7font h5 {
+  color: white;
+}
+.Mattresssection7font h1 {
+  color: skyblue;
+  font-weight: 400;
+  font-size: 32px;
+}
+.Mattresssection7font p {
+  width: 50vw;
+  color: white;
+}
+.Mattresssection7font button {
+  background-color: white;
+  width: 9vw;
+  height: 6vh;
+  border-style: none;
+  box-shadow: 7px 1px 10px 2px;
+  border-radius: 0px 8px 3px 6px rgb(228, 224, 224);
+  border-radius: 10px 15px 10px 10px;
+  margin-top: 10px;
+}
+.section8 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.section8 h2 {
+  font-weight: 300px;
+  font-size: 30px;
+}
+.section8 p {
+  width: 43vw;
+  align-items: center;
+  margin: auto;
+  color: rgb(51, 50, 50);
+}
+.section8image {
+  display: flex;
+  margin-top: 8vh;
+}
+.section8image img {
+  width: 377px;
+}
+.section8image .section8subimg {
+  border: 1px solid rgb(215, 212, 212);
+}
+.Collectionfont35 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 10vh;
+}
+.Collectionfont35 h2 {
+  font-weight: 300;
+}
+.Collectionfont35 p {
+  width: 45vw;
+  margin: auto;
+  color: rgb(69, 69, 69);
+}
+.COLLECTION {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 10vh;
+  gap: 24px;
+}
+.COLLECTION img {
+  width: 350px;
+  height: 230px;
+}
+.COLLECTIONcards {
+  background-color: rgb(237, 236, 236);
+  width: 350px;
+  height: 500px;
+}
+.COLLECTIONfonts {
+  margin: 15px 20px;
+}
+.COLLECTIONfonts a {
+  text-decoration: none;
+}
+.COLLECTIONfonts h3 {
+  font-size: 15px;
+  color: rgb(79, 78, 78);
+}
+.COLLECTIONfonts h2 {
+  font-size: 23px;
+  color: black;
+}
+.COLLECTIONfonts p {
+  color: black;
+  align-items: center;
+  width: 22vw;
+}
+.COLLECTIONfonts button {
+  background-color: rgb(215, 212, 212);
+  width: 12vw;
+  height: 6vh;
+  border-style: none;
+  border-radius: 0px 3px 8px 4px;
+}
+.COLLECTIONfonts button i {
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.NEWARRIVALS {
+  width: 100%;
+  height: 100%;
+  margin-top: 10vh;
+  background-color: rgb(230, 240, 244);
+}
+.NEWARRIVALSheadingtop {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.NEWARRIVALSheadingtop h2 {
+  padding: 5vh;
+}
+.NEWARRIVALS p {
+  width: 40vw;
+  margin: auto;
+}
+.newarrivalscards {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  background-color: white;
+}
+.newarrivalscards img {
+  width: 150px;
+  height: 150px;
+}
+.newarrivalscardsimg {
+  width: 18vw;
+  margin: 30px 25px;
+}
+.newarrivalscardsimg a {
+  text-decoration: none;
+}
+.newarrivalscardsimg h5 {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+  width: 15vw;
+}
+.newarrivalscardsrate {
+  display: flex;
+}
+.newarrivalscards .blankdiv {
+  border-top: 1px solid black;
+  width: 16vw;
+  margin-top: 6px;
+}
+.newarrivalscardsimg p {
+  color: rgb(98, 97, 97);
+  width: 18vw;
+}
+.newarrivalscardsimg span {
+  color: rgb(148, 144, 144);
+}
+.newarrivalscardsrate {
+  width: 15vw;
+}
+.newarrivalscardsrate p,
+i {
+  color: rgb(75, 74, 74);
+  font-size: 19px;
+  margin-top: 7px;
+  width: 15vw;
+}
+.Newarrivalsallcards {
+  display: flex;
+  margin-top: 10vh;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.newarrivalscardsrate span {
+  font-size: 13px;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+.section10 {
+  width: 100%;
+  height: 100%;
+  margin-top: 10vh;
+}
+.section10headingpara {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.section10 h2 {
+  font-weight: 300;
+}
+.section10 p {
+  width: 40vw;
+  margin: auto;
+}
+.mainsection10img {
+  width: 500px;
+  position: relative;
+}
+.section10img3 {
+  width: 519px;
+}
+.section10img3 img {
+  width: 516px;
+  height: 500px;
+  filter: brightness(0.4);
+}
+.mainsection10font {
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  margin-top: 20vh;
+}
+.mainsection10font i {
+  color: white;
+  font-weight: 200;
+}
+.mainsection10font a {
+  text-decoration: none;
+  font-weight: 400;
+  margin-top: 8px;
+  color: skyblue;
+}
+.mainsection10font p {
+  width: 25vw;
+  color: white;
+  margin-top: 20px;
+}
+.mainsection10font button {
+  background-color: transparent;
+  color: white;
+  margin: 20px;
+  border-style: none;
+}
+.section10flex {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.section11allcards123 {
+  display: flex;
+}
+.section11 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(230, 240, 244);
+}
+.section11 .CUSTOMERS {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.section11 .CUSTOMERS h2 {
+  padding-top: 10vh;
+  font-weight: 300;
+}
+.section11 .CUSTOMERS p {
+  color: rgb(109, 107, 107);
+}
+.cardssection11mainpart {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.section11cards img {
+  border-radius: 60px 60px;
+}
+.section11cards {
+  display: flex;
+}
+.section11cards .section11subcards p {
+  width: 30vw;
+  color: rgb(85, 84, 84);
+  font-size: 15px;
+}
+.section11subcards {
+  margin-left: 40px;
+}
+.section11cards img {
+  width: 130px;
+  height: 120px;
+}
+.section11allcards123 {
+  gap: 5vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.section11subcards p span {
+  font-size: 30px;
+  color: rgb(172, 170, 170);
+}
+.section11subcards h4 {
+  font-size: 20px;
+  color: rgb(76, 76, 76);
+  font-weight: 400;
+}
+.section11subcards h4 span {
+  color: skyblue;
+}
+.Endpart {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+}
+.Endpart1 {
+  margin-top: 10vh;
+  margin-left: 5vw;
+  width: 40vw;
+}
+.Endpart1 p {
+  margin-top: 3vh;
+  color: rgb(127, 125, 125);
+  width: 25vw;
+  font-size: 15px;
+}
+.Endpart1 .Endicons button {
+  border-color: rgb(204, 204, 204);
+}
+.Endpart2 {
+  margin-top: 10vh;
+  width: 40vw;
+}
+.Endpart2 h4 {
+  color: black;
+  font-weight: 300;
+  font-size: 23px;
+}
+.Endpart2 input {
+  margin-top: 5vh;
+  border-style: dotted;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 20vw;
+}
+.Endpart2 button {
+  margin-top: 5vh;
+  margin-left: 7vw;
+  background-color: white;
+  width: 9vw;
+  height: 6vh;
+  border-style: none;
+  box-shadow: 3px 0px 6px 0px;
+  border-radius: 0px 10px 0px 6px;
+}
+.Endpart2 p {
+  width: 25vw;
+  margin-top: 4vh;
+  color: rgb(96, 95, 95);
+}
+.Endpart3 {
+  margin-top: 10vh;
+  width: 28vw;
+}
+.Endpart3 img {
+  width: 150px;
+  height: 150px;
+  margin-top: 6vh;
+}
+.Endpart3 h3 {
+  color: black;
+  font-weight: 300;
+  font-size: 23px;
+}
+.Endpart3 li {
+  list-style: none;
+  color: rgb(120, 119, 119);
+}
+.Endpart4 {
+  margin-top: 10vh;
+  width: 28vw;
+}
+.Endpart4 h3 {
+  color: black;
+  font-weight: 300;
+  font-size: 22px;
+}
+.Endpart4 h4 {
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+}
+.Endpart4 .Endblank {
+  border-top: 1px solid rgb(146, 144, 144);
+}
+.Endpart4 h2 {
+  color: black;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.Endpart4 a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(92, 91, 91);
+}
+.Endpart4 p {
+  font-size: 12px;
+}
